@@ -1,0 +1,10 @@
+disturbance	future.relev	uncertainty
+Browsing	2	0.75
+Disease	3	0.75
+Drought	2	0.75
+Flood	1	0.75
+Ice	1	0.75
+InsectPest	4	0.5
+InvasivePlants	3	0.5
+TempGradient	2	0.75
+Wind	1	0.75
