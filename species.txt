@@ -1,0 +1,18 @@
+code	species
+ABBA	Abies balsamea
+ACRU	Acer rubrum
+ACSA	Acer saccharum
+BEAL	Betula alleghaniensis
+BEPA	Betula papyrifera
+FAGR	Fagus grandifolia
+FRAM	Fraxinus americana
+FRNI	Fraxinus nigra
+PIGL	Picea glauca
+PIMA	Picea mariana
+PIST	Pinus strobus
+POGR	Populus grandidentata
+POTR	Populus tremuloides
+QURU	Quercus rubra
+THOC	Thuja occidentalis
+TIAM	Tilia americana
+TSCA	Tsuga canadensis
