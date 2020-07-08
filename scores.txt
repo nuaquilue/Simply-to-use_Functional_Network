@@ -1,0 +1,18 @@
+code	species	Browsing	Disease	Drought	Flood	Ice	Insect pest	Invasive plants	Temp. gradient	Wind
+ABBA	Abies balsamea	-1	-2	-2	1	-1	-3	-2	-2	-2
+ACRU	Acer rubrum	-1	-1	1	2	1	0	-1	2	1
+ACSA	Acer saccharum	-1	-1	-1	-2	-1	-1	-1	1	1
+BEAL	Betula alleghaniensis	-2	-3	-1	-1	-1	-2	-2	1	-1
+BEPA	Betula papyrifera	-1	-2	-2	-1	-1	-2	-2	0	-1
+FAGR	Fagus grandifolia	1	-2	-1	-3	-1	-2	-2	1	-1
+FRAM	Fraxinus americana	-2	-2	-1	0	-1	-3	-2	0	-1
+FRNI	Fraxinus nigra	2	-2	-2	2	-1	-3	-2	0	1
+PIGL	Picea glauca	-1	-1	-1	-1	-1	-2	-2	2	-1
+PIMA	Picea mariana	-1	-2	-2	-1	-2	-2	-2	1	-2
+PIST	Pinus strobus	-1	-2	-3	1	-1	-2	-2	-1	1
+POGR	Populus grandidentata	1	-1	-2	-1	1	-1	-1	1	1
+POTR	Populus tremuloides	-1	-2	-2	-1	0	-2	-1	3	-2
+QURU	Quercus rubra	-1	-2	1	-1	-1	-3	-2	2	1
+THOC	Thuja occidentalis	-1	-1	-2	-1	-2	-2	-2	-1	-1
+TIAM	Tilia americana	-1	-1	-1	2	1	-2	-2	2	-1
+TSCA	Tsuga canadensis	-2	-2	-2	-1	-1	-3	-2	-1	-2
