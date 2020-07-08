@@ -3,12 +3,12 @@ Data and R code to cluster species into functional groups, and compute stand-lev
 
 ### species.txt
 List of species  
-**code**: unique four letters code for species  
-**species**: species name  
+**code**: Unique four letters code for species  
+**species**: Species name  
 
 ### functional.trait.txt  
 List of nine functional trait values for 75 tree and shrub species  
-**code**: unique four letters code for species  
+**code**: Unique four letters code for species  
 **seed.mass**: Seed mass (g·1000-1 seeds)   
 **wood.dens**: Wood density (g·cm-3)   
 **leaf.mass.area**: Leaf mass area (g·cm-2)   
@@ -21,15 +21,15 @@ List of nine functional trait values for 75 tree and shrub species
 
 ### spp.rel.abund.stand.txt    
 Species relative abundance per forest stand or tree community   
-**code**: unique id for stands   
-**ABBA** - **TSCA**: relative abundance of species code as in **species**   
+**code**: Unique id for stands   
+**ABBA** - **TSCA**: Relative abundance of species code as in **species**   
 
 ### scores.txt    
 Raw scores (-3 - negativelly influenced to 3 - positivelly influenced) for a list of species and natural disturbances   
 
 ### disturbances.txt   
 List of disturbances and relative uncertainity and future relevance   
-**disturbance**: unique disturbance name   
-**future.relev**: future relevance (1 - low, 2 - moderate, 3 - high, 4 - very high)   
-**uncertainty**: uncertainty (0 to 1)   
+**disturbance**: Unique disturbance name   
+**future.relev**: Future relevance (1 - low, 2 - moderate, 3 - high, 4 - very high)   
+**uncertainty**: Uncertainty (0 to 1)   
   
