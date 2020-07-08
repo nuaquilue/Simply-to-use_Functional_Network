@@ -23,7 +23,7 @@ library(vegan)
 
 ## Read functional trait values for a list of species
 func.trait.spp <- read.table("https://raw.githubusercontent.com/nuaquilue/Simply-to-use_Functional_Network/master/functional.trait.txt", header=T, sep= "\t" )
-
+rownames(func.trait.spp) <- func.trait.spp$code
 
 ## Create a list of data frames, one per each type of traits
 ## Quantitative traits
@@ -49,7 +49,7 @@ clust <- agnes(distrait, diss=TRUE, method="ward")
 
 
 ## Plot a tree dendogram with 'nclust' number of clusters
-nclust <- 7
+nclust <- 5
 plot(clust, cex=0.5, which.plots=2, main="", xlab="")
 rect.hclust(clust, k=nclust, border=brewer_pal(palette = "Set1")(nclust))
 
@@ -72,7 +72,8 @@ species.fg <- left_join(species, select(func.trait.spp, code, fg), "code")
 func.diver <- gather(rel.abund, code, abund, ABBA:TSCA, factor_key=TRUE) %>% 
               left_join(select(species.fg, code, fg), "code") %>% 
               group_by(id, fg) %>% summarise(x=sum(abund)) %>% 
-              group_by(id) %>% summarise(fd=exp(diversity(x, "shannon")) )
+              group_by(id) %>% summarise(fd.exp=exp(diversity(x, "shannon"))) %>%
+              mutate(fd=(fd.exp-1)/(nclust-1))
 
 
 
